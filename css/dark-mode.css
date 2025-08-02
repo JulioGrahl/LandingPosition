@@ -1,0 +1,47 @@
+[data-theme="light"] {
+    --dark: #f5f5ff;
+    --darker: #e0e0ff;
+    --light: #0a0a1a;
+    --gray: #e0e0f0;
+    --light-gray: #d0d0e0;
+}
+
+[data-theme="light"] .interactive-bg {
+    background-color: var(--dark);
+}
+
+[data-theme="light"] .grid-lines {
+    background-image: 
+        linear-gradient(to right, var(--gray) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--gray) 1px, transparent 1px);
+}
+
+[data-theme="light"] .floating-nav {
+    background: rgba(245, 245, 255, 0.8);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] .nav-link {
+    color: var(--light);
+}
+
+[data-theme="light"] .service-card {
+    background: var(--gray);
+}
+
+[data-theme="light"] .process-section {
+    background: var(--darker);
+}
+
+[data-theme="light"] .contact-form {
+    background: var(--gray);
+}
+
+[data-theme="light"] .form-group input {
+    color: var(--light);
+    border-bottom-color: var(--light-gray);
+}
+
+[data-theme="light"] .main-footer {
+    background: var(--darker);
+}
