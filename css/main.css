@@ -270,6 +270,26 @@ a {
     overflow: hidden;
 }
 
+.imgHero {
+    margin-right: -40px;
+    max-height: 450px;
+}
+
+@media(max-width:960px){
+    .imgHero{
+        display: none;
+    }
+}
+
+
+#containerHero{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-around;
+    
+}
+
 .hero-video {
     position: absolute;
     top: 0;
@@ -323,10 +343,11 @@ a {
 }
 
 .stat-item {
-    font-size: 36px;
+    font-size: 31px;
     font-weight: 700;
     color: var(--secondary);
 }
+
 
 .stat-item::after {
     content: '+';
